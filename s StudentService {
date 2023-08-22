@@ -1,0 +1,368 @@
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in target/classes/application.properties.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.idea/modern-backend-meetup-main.iml b/.idea/modern-backend-meetup-main.iml[m
+[1mindex 41d0de4..88dabc4 100644[m
+[1m--- a/.idea/modern-backend-meetup-main.iml[m
+[1m+++ b/.idea/modern-backend-meetup-main.iml[m
+[36m@@ -55,8 +55,8 @@[m
+     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:json-smart:2.4.7" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: net.minidev:accessors-smart:2.4.7" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.ow2.asm:asm:9.1" level="project" />[m
+[31m-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />[m
+[31m-    <orderEntry type="library" scope="TEST" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:3.19.0" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest:2.2" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter:5.7.2" level="project" />[m
+[36m@@ -68,7 +68,7 @@[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.7.2" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.7.2" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-core:3.9.0" level="project" />[m
+[31m-    <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy:1.10.22" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.22" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: net.bytebuddy:byte-buddy-agent:1.10.22" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:3.2" level="project" />[m
+     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-junit-jupiter:3.9.0" level="project" />[m
+[36m@@ -94,5 +94,33 @@[m
+     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />[m
+     <orderEntry type="library" name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />[m
+     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.0.0.Final" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:2.5.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:2.5.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.5.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:4.0.3" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.3.8" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: jakarta.transaction:jakarta.transaction-api:1.3.3" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.4.32.Final" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.javassist:javassist:3.27.0-GA" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.jboss:jandex:2.2.3.Final" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.dom4j:dom4j:2.1.3" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.1.2.Final" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-runtime:2.3.4" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.4" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.12" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.activation:jakarta.activation:1.2.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-jpa:2.5.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:2.5.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework:spring-orm:5.3.8" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.8" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.3.8" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" scope="RUNTIME" name="Maven: org.postgresql:postgresql:42.2.22" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" scope="RUNTIME" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.hibernate.validator:hibernate-validator:6.1.5.Final" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />[m
+[32m+[m[32m    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.4.2.Final" level="project" />[m
+   </component>[m
+ </module>[m
+\ No newline at end of file[m
+[1mdiff --git a/data/base/5/1247 b/data/base/5/1247[m
+[1mindex 977b217..2d77bab 100644[m
+Binary files a/data/base/5/1247 and b/data/base/5/1247 differ
+[1mdiff --git a/data/base/5/1247_vm b/data/base/5/1247_vm[m
+[1mindex df1355b..77629cc 100644[m
+Binary files a/data/base/5/1247_vm and b/data/base/5/1247_vm differ
+[1mdiff --git a/data/base/5/1249 b/data/base/5/1249[m
+[1mindex 96573dd..b4b6114 100644[m
+Binary files a/data/base/5/1249 and b/data/base/5/1249 differ
+[1mdiff --git a/data/base/5/1249_fsm b/data/base/5/1249_fsm[m
+[1mindex 87def57..16725b9 100644[m
+Binary files a/data/base/5/1249_fsm and b/data/base/5/1249_fsm differ
+[1mdiff --git a/data/base/5/1249_vm b/data/base/5/1249_vm[m
+[1mindex b02415e..3b0e71d 100644[m
+Binary files a/data/base/5/1249_vm and b/data/base/5/1249_vm differ
+[1mdiff --git a/data/base/5/1259 b/data/base/5/1259[m
+[1mindex 5f1b0a6..76989e8 100644[m
+Binary files a/data/base/5/1259 and b/data/base/5/1259 differ
+[1mdiff --git a/data/base/5/1259_vm b/data/base/5/1259_vm[m
+[1mindex 04f6f17..3dc0e8b 100644[m
+Binary files a/data/base/5/1259_vm and b/data/base/5/1259_vm differ
+[1mdiff --git a/data/base/5/2224 b/data/base/5/2224[m
+[1mindex e69de29..0896bce 100644[m
+Binary files a/data/base/5/2224 and b/data/base/5/2224 differ
+[1mdiff --git a/data/base/5/2579 b/data/base/5/2579[m
+[1mindex 495d2ca..9e5f350 100644[m
+Binary files a/data/base/5/2579 and b/data/base/5/2579 differ
+[1mdiff --git a/data/base/5/2606 b/data/base/5/2606[m
+[1mindex b03cd36..8e59c75 100644[m
+Binary files a/data/base/5/2606 and b/data/base/5/2606 differ
+[1mdiff --git a/data/base/5/2606_vm b/data/base/5/2606_vm[m
+[1mindex d7cc0cd..a268184 100644[m
+Binary files a/data/base/5/2606_vm and b/data/base/5/2606_vm differ
+[1mdiff --git a/data/base/5/2608 b/data/base/5/2608[m
+[1mindex 4d5aa97..b005205 100644[m
+Binary files a/data/base/5/2608 and b/data/base/5/2608 differ
+[1mdiff --git a/data/base/5/2608_fsm b/data/base/5/2608_fsm[m
+[1mindex 6ba89a4..1797d66 100644[m
+Binary files a/data/base/5/2608_fsm and b/data/base/5/2608_fsm differ
+[1mdiff --git a/data/base/5/2608_vm b/data/base/5/2608_vm[m
+[1mindex 98e9a5b..b8b6a0a 100644[m
+Binary files a/data/base/5/2608_vm and b/data/base/5/2608_vm differ
+[1mdiff --git a/data/base/5/2610 b/data/base/5/2610[m
+[1mindex 16a6618..5afff12 100644[m
+Binary files a/data/base/5/2610 and b/data/base/5/2610 differ
+[1mdiff --git a/data/base/5/2610_vm b/data/base/5/2610_vm[m
+[1mindex 030df10..0df2f95 100644[m
+Binary files a/data/base/5/2610_vm and b/data/base/5/2610_vm differ
+[1mdiff --git a/data/base/5/2658 b/data/base/5/2658[m
+[1mindex dc8d711..b76f4b5 100644[m
+Binary files a/data/base/5/2658 and b/data/base/5/2658 differ
+[1mdiff --git a/data/base/5/2659 b/data/base/5/2659[m
+[1mindex 01c22b0..3ab808b 100644[m
+Binary files a/data/base/5/2659 and b/data/base/5/2659 differ
+[1mdiff --git a/data/base/5/2662 b/data/base/5/2662[m
+[1mindex 031ad59..ab9bff6 100644[m
+Binary files a/data/base/5/2662 and b/data/base/5/2662 differ
+[1mdiff --git a/data/base/5/2663 b/data/base/5/2663[m
+[1mindex b31891c..e115662 100644[m
+Binary files a/data/base/5/2663 and b/data/base/5/2663 differ
+[1mdiff --git a/data/base/5/2664 b/data/base/5/2664[m
+[1mindex 56f9751..bfeb77a 100644[m
+Binary files a/data/base/5/2664 and b/data/base/5/2664 differ
+[1mdiff --git a/data/base/5/2665 b/data/base/5/2665[m
+[1mindex 1347fc8..6d944d1 100644[m
+Binary files a/data/base/5/2665 and b/data/base/5/2665 differ
+[1mdiff --git a/data/base/5/2666 b/data/base/5/2666[m
+[1mindex d5b5ea5..aab99ab 100644[m
+Binary files a/data/base/5/2666 and b/data/base/5/2666 differ
+[1mdiff --git a/data/base/5/2667 b/data/base/5/2667[m
+[1mindex aa143b9..cc80301 100644[m
+Binary files a/data/base/5/2667 and b/data/base/5/2667 differ
+[1mdiff --git a/data/base/5/2673 b/data/base/5/2673[m
+[1mindex b162181..b1e101d 100644[m
+Binary files a/data/base/5/2673 and b/data/base/5/2673 differ
+[1mdiff --git a/data/base/5/2674 b/data/base/5/2674[m
+[1mindex 90f897f..169dd02 100644[m
+Binary files a/data/base/5/2674 and b/data/base/5/2674 differ
+[1mdiff --git a/data/base/5/2678 b/data/base/5/2678[m
+[1mindex 86e717e..9cbffa0 100644[m
+Binary files a/data/base/5/2678 and b/data/base/5/2678 differ
+[1mdiff --git a/data/base/5/2679 b/data/base/5/2679[m
+[1mindex 944e568..adb06be 100644[m
+Binary files a/data/base/5/2679 and b/data/base/5/2679 differ
+[1mdiff --git a/data/base/5/2703 b/data/base/5/2703[m
+[1mindex 840cddd..6e073c2 100644[m
+Binary files a/data/base/5/2703 and b/data/base/5/2703 differ
+[1mdiff --git a/data/base/5/2704 b/data/base/5/2704[m
+[1mindex 1dd4341..55b165c 100644[m
+Binary files a/data/base/5/2704 and b/data/base/5/2704 differ
+[1mdiff --git a/data/base/5/3455 b/data/base/5/3455[m
+[1mindex 6cc3b71..74c3a31 100644[m
+Binary files a/data/base/5/3455 and b/data/base/5/3455 differ
+[1mdiff --git a/data/base/5/5002 b/data/base/5/5002[m
+[1mindex aefa40d..ee4cb0e 100644[m
+Binary files a/data/base/5/5002 and b/data/base/5/5002 differ
+[1mdiff --git a/data/global/pg_control b/data/global/pg_control[m
+[1mindex e40f477..92abc45 100644[m
+Binary files a/data/global/pg_control and b/data/global/pg_control differ
+[1mdiff --git a/data/pg_wal/000000010000000000000001 b/data/pg_wal/000000010000000000000001[m
+[1mindex f82da8d..015458a 100644[m
+Binary files a/data/pg_wal/000000010000000000000001 and b/data/pg_wal/000000010000000000000001 differ
+[1mdiff --git a/data/pg_xact/0000 b/data/pg_xact/0000[m
+[1mindex b79ef1c..8f3852e 100644[m
+Binary files a/data/pg_xact/0000 and b/data/pg_xact/0000 differ
+[1mdiff --git a/docker-compose.yml b/docker-compose.yml[m
+[1mindex e69de29..9920629 100644[m
+[1m--- a/docker-compose.yml[m
+[1m+++ b/docker-compose.yml[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32mversion: "3"[m
+[32m+[m[32mservices:[m
+[32m+[m[32m  db:[m
+[32m+[m[32m    image: postgres[m
+[32m+[m[32m    environment:[m
+[32m+[m[32m      POSTGRES_PASSWORD: postgres[m
+[32m+[m[32m    ports:[m
+[32m+[m[32m      - 5432:5432[m
+[32m+[m[32m    volumes:[m
+[32m+[m[32m      - ./data:/var/lib/postgresql/data[m
+[32m+[m[32m    privileged: true[m
+\ No newline at end of file[m
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 2375ccf..c08085c 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -48,6 +48,22 @@[m
+ 			<artifactId>springfox-swagger2</artifactId>[m
+ 			<version>2.6.1</version>[m
+ 		</dependency>[m
+[32m+[m		[32m<dependency>[m
+[32m+[m			[32m<groupId>org.springframework.boot</groupId>[m
+[32m+[m			[32m<artifactId>spring-boot-starter-data-jpa</artifactId>[m
+[32m+[m		[32m</dependency>[m
+[32m+[m
+[32m+[m		[32m<dependency>[m
+[32m+[m			[32m<groupId>org.postgresql</groupId>[m
+[32m+[m			[32m<artifactId>postgresql</artifactId>[m
+[32m+[m			[32m<scope>runtime</scope>[m
+[32m+[m		[32m</dependency>[m
+[32m+[m
+[32m+[m		[32m<dependency>[m
+[32m+[m			[32m<groupId>org.hibernate</groupId>[m
+[32m+[m			[32m<artifactId>hibernate-validator</artifactId>[m
+[32m+[m			[32m<version>6.1.5.Final</version>[m
+[32m+[m		[32m</dependency>[m
+ 	</dependencies>[m
+ [m
+ 	<build>[m
+[1mdiff --git a/src/main/java/com/example/demo/model/Student.java b/src/main/java/com/example/demo/model/Student.java[m
+[1mindex 81ecb90..771c944 100644[m
+[1m--- a/src/main/java/com/example/demo/model/Student.java[m
+[1m+++ b/src/main/java/com/example/demo/model/Student.java[m
+[36m@@ -1,2 +1,50 @@[m
+[31m-package com.example.demo.model;public class Student {[m
+[32m+[m[32mpackage com.example.demo.model;[m
+[32m+[m
+[32m+[m[32mimport lombok.AllArgsConstructor;[m
+[32m+[m[32mimport lombok.Builder;[m
+[32m+[m[32mimport lombok.Data;[m
+[32m+[m[32mimport lombok.NoArgsConstructor;[m
+[32m+[m[32mimport org.hibernate.validator.constraints.Length;[m
+[32m+[m[32mimport javax.persistence.*;[m
+[32m+[m[32mimport javax.validation.constraints.Max;[m
+[32m+[m[32mimport javax.validation.constraints.Min;[m
+[32m+[m[32mimport javax.validation.constraints.NotEmpty;[m
+[32m+[m[32mimport javax.validation.constraints.NotNull;[m
+[32m+[m[32mimport java.io.Serializable;[m
+[32m+[m[32mimport java.util.Date;[m
+[32m+[m
+[32m+[m[32m@Data[m
+[32m+[m[32m@AllArgsConstructor[m
+[32m+[m[32m@NoArgsConstructor[m
+[32m+[m[32m@Builder[m
+[32m+[m[32m@Entity[m
+[32m+[m[32m@Table(name="student")[m
+[32m+[m[32mpublic class Student implements Serializable {[m
+[32m+[m[32m    private static final long serialVersionUID = 1L;[m
+[32m+[m[32m    @Id[m
+[32m+[m[32m    @GeneratedValue(strategy= GenerationType.AUTO)[m
+[32m+[m[32m    private Long id;[m
+[32m+[m
+[32m+[m[32m    @NotNull[m
+[32m+[m[32m    @Column(nullable = false, updatable = false)[m
+[32m+[m[32m    private Date createdAt = new Date(); // cannot be null and cannot be updated![m
+[32m+[m
+[32m+[m[32m    @NotEmpty[m
+[32m+[m[32m    @Length(max = 60) // validates 60 max[m
+[32m+[m[32m    private String fullname;[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    @Min(100)[m
+[32m+[m[32m    @Max(800)[m
+[32m+[m[32m    private Integer satScore; // validates between 100-800[m
+[32m+[m
+[32m+[m[32m    @Min(30)[m
+[32m+[m[32m    @Max(110)[m
+[32m+[m[32m    private Double graduationScore; // validates between 30-110[m
+[32m+[m
+[32m+[m[32m    @Length(max = 20)[m
+[32m+[m[32m    private String phone; // validates 20 max[m
+[32m+[m
+[32m+[m[32m    @Length(max = 500)[m
+[32m+[m[32m    private String profilePicture; // validates 500 max[m
+ }[m
+[1mdiff --git a/src/main/java/com/example/demo/repo/StudentRepository.java b/src/main/java/com/example/demo/repo/StudentRepository.java[m
+[1mindex ab7d595..6a0fbcd 100644[m
+[1m--- a/src/main/java/com/example/demo/repo/StudentRepository.java[m
+[1m+++ b/src/main/java/com/example/demo/repo/StudentRepository.java[m
+[36m@@ -1,2 +1,9 @@[m
+[31m-package com.example.demo.repo;public class StudentRepository {[m
+[32m+[m[32mpackage com.example.demo.repo;[m
+[32m+[m
+[32m+[m[32mimport com.example.demo.model.Student;[m
+[32m+[m[32mimport org.springframework.data.repository.CrudRepository;[m
+[32m+[m[32mimport org.springframework.stereotype.Repository;[m
+[32m+[m
+[32m+[m[32m@Repository[m
+[32m+[m[32mpublic interface StudentRepository extends CrudRepository<Student, Long> {[m
+ }[m
+[1mdiff --git a/src/main/java/com/example/demo/service/StudentService.java b/src/main/java/com/example/demo/service/StudentService.java[m
+[1mindex 5e6ecd6..ba6dd0e 100644[m
+[1m--- a/src/main/java/com/example/demo/service/StudentService.java[m
+[1m+++ b/src/main/java/com/example/demo/service/StudentService.java[m
+[36m@@ -1,2 +1,33 @@[m
+[31m-package com.example.demo.service;public class StudentService {[m
+[32m+[m[32mpackage com.example.demo.service;[m
+[32m+[m
+[32m+[m[32mimport com.example.demo.model.Student;[m
+[32m+[m[32mimport com.example.demo.repo.StudentRepository;[m
+[32m+[m[32mimport org.springframework.beans.factory.annotation.Autowired;[m
+[32m+[m[32mimport org.springframework.stereotype.Service;[m
+[32m+[m
+[32m+[m[32mimport java.util.Optional;[m
+[32m+[m
+[32m+[m[32m@Service[m
+[32m+[m[32mpublic class StudentService {[m
+[32m+[m
+[32m+[m[32m    @Autowired[m
+[32m+[m[32m    StudentRepository repository;[m
+[32m+[m
+[32m+[m[32m    public Iterable<Student> all() {[m
+[32m+[m[32m        return repository.findAll();[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public Optional<Student> findById(Long id) {[m
+[32m+[m[32m        return repository.findById(id);[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    public Student save(Student student) {[m
+[32m+[m[32m        return repository.save(student);[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[32m    public void delete(Student student) {[m
+[32m+[m[32m        repository.delete(student);[m
+[32m+[m[32m    }[m
+[32m+[m
+ }[m
+[1mdiff --git a/src/main/resources/application.properties b/src/main/resources/application.properties[m
+[1mindex 07d0abe..5d61eb7 100644[m
+[1m--- a/src/main/resources/application.properties[m
+[1m+++ b/src/main/resources/application.properties[m
+[36m@@ -1,11 +1,7 @@[m
+[31m-spring.datasource.url = jdbc:mysql://localhost:3306/modern-backend-students[m
+[31m-spring.datasource.username = root[m
+[31m-spring.datasource.password = OrJacob2001![m
+[31m-spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver[m
+[31m-[m
+[31m-spring.jpa.generate-ddl = true[m
+[31m-spring.jpa.hibernate.ddl-auto = create-drop[m
+[31m-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect[m
+[32m+[m[32mspring.datasource.url=jdbc:postgresql://localhost:5432/postgres[m
+[32m+[m[32mspring.datasource.username=postgres[m
+[32m+[m[32mspring.datasource.password=postgres[m
+[32m+[m[32mspring.jpa.hibernate.ddl-auto=update[m
+[32m+[m[32mspring.jpa.show-sql=true[m
+ spring.jpa.properties.hibernate.format_sql=true[m
+[31m-logging.level.org.hibernate.SQL=DEBUG[m
+[31m-spring.main.allow-circular-references=true[m
+[32m+[m[32mspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect[m
+[1mdiff --git a/target/classes/application.properties b/target/classes/application.properties[m
+[1mindex 07d0abe..5d61eb7 100644[m
+[1m--- a/target/classes/application.properties[m
+[1m+++ b/target/classes/application.properties[m
+[36m@@ -1,11 +1,7 @@[m
+[31m-spring.datasource.url = jdbc:mysql://localhost:3306/modern-backend-students[m
+[31m-spring.datasource.username = root[m
+[31m-spring.datasource.password = OrJacob2001![m
+[31m-spring.datasource.driver-class-name = com.mysql.cj.jdbc.Driver[m
+[31m-[m
+[31m-spring.jpa.generate-ddl = true[m
+[31m-spring.jpa.hibernate.ddl-auto = create-drop[m
+[31m-spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect[m
+[32m+[m[32mspring.datasource.url=jdbc:postgresql://localhost:5432/postgres[m
+[32m+[m[32mspring.datasource.username=postgres[m
+[32m+[m[32mspring.datasource.password=postgres[m
+[32m+[m[32mspring.jpa.hibernate.ddl-auto=update[m
+[32m+[m[32mspring.jpa.show-sql=true[m
+ spring.jpa.properties.hibernate.format_sql=true[m
+[31m-logging.level.org.hibernate.SQL=DEBUG[m
+[31m-spring.main.allow-circular-references=true[m
+[32m+[m[32mspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect[m
