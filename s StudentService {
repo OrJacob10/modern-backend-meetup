@@ -276,7 +276,7 @@ Binary files a/data/pg_xact/0000 and b/data/pg_xact/0000 differ
 [31m-package com.example.demo.repo;public class StudentRepository {[m
 [32m+[m[32mpackage com.example.demo.repo;[m
 [32m+[m
-[32m+[m[32mimport com.example.demo.model.Student;[m
+[32m+[m[32mimport Student;[m
 [32m+[m[32mimport org.springframework.data.repository.CrudRepository;[m
 [32m+[m[32mimport org.springframework.stereotype.Repository;[m
 [32m+[m
@@ -291,8 +291,8 @@ Binary files a/data/pg_xact/0000 and b/data/pg_xact/0000 differ
 [31m-package com.example.demo.service;public class StudentService {[m
 [32m+[m[32mpackage com.example.demo.service;[m
 [32m+[m
-[32m+[m[32mimport com.example.demo.model.Student;[m
-[32m+[m[32mimport com.example.demo.repo.StudentRepository;[m
+[32m+[m[32mimport Student;[m
+[32m+[m[32mimport StudentRepository;[m
 [32m+[m[32mimport org.springframework.beans.factory.annotation.Autowired;[m
 [32m+[m[32mimport org.springframework.stereotype.Service;[m
 [32m+[m

@@ -1,6 +1,6 @@
-package com.example.demo.repo;
+package com.handson.backend.repo;
 
-import com.example.demo.model.Student;
+import com.handson.backend.model.Student;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

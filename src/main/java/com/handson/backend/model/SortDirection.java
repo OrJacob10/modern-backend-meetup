@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.handson.backend.model;
 
 public enum SortDirection {
     asc,desc

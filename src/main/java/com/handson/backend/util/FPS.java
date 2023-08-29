@@ -1,11 +1,11 @@
-package com.example.demo.util;
+package com.handson.backend.util;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.demo.model.Pagination;
-import com.example.demo.model.PaginationAndList;
-import com.example.demo.model.SortDirection;
+import com.handson.backend.model.Pagination;
+import com.handson.backend.model.PaginationAndList;
+import com.handson.backend.model.SortDirection;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;

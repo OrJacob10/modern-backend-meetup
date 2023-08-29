@@ -1,4 +1,4 @@
-package com.example.demo.util;
+package com.handson.backend.util;
 
 public class Strings {
 

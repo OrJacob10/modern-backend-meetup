@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.handson.backend.model;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;

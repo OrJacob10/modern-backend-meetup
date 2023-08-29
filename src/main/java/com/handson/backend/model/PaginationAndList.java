@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.handson.backend.model;
 
 
 import java.util.List;

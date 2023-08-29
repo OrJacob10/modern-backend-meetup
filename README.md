@@ -268,7 +268,7 @@ public class StudentIn implements Serializable {
 ```
 controller/StudentsController.java
 ```java
-    @Autowired
+    @Autowired 
     StudentService studentService;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
@@ -342,7 +342,6 @@ model/StudentOut:
 ```java
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.SqlResultSetMapping;
